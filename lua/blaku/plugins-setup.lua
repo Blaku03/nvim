@@ -23,6 +23,7 @@ vim.cmd([[
 -- import packer safely
 local status, packer = pcall(require, "packer")
 if not status then
+	print("Packer not found")
 	return
 end
 
