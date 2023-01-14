@@ -15,7 +15,7 @@ end
 -- import typescript plugin safely
 local typescript_setup, typescript = pcall(require, "typescript")
 if not typescript_setup then
-	print("typescript_setup not fount")
+	print("typescript_setup not found")
 	return
 end
 
